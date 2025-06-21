@@ -12,6 +12,6 @@ public class Main {
         double interest=0.07;
         int years=10;
         double futureValue=Finance.predictFuturevalue(principal,interest,years);
-        System.out.printf("Predicted Future Value of principal with compound interest: %.2f",futureValue);
+        System.out.printf("Predicted Future Value of principal with compound interest: %.2f\n",futureValue);
     }
 }
