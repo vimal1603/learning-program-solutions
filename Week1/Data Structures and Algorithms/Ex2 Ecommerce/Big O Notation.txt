@@ -1,0 +1,38 @@
+Big O Notation is a mathematical representation used to describe the time and space complexity of an algorithm in terms of the input size (n). It expresses how the runtime or memory usage grows relative to the input, especially as the input becomes large.
+
+It helps in analyzing and comparing the efficiency of algorithms by giving an upper bound on their growth rate. This allows us to predict how an algorithm will perform, particularly in the worst-case scenario, without depending on hardware or exact execution time.
+
+For example:
+
+An algorithm with O(n) complexity will take time proportional to the size of the input.
+
+O(1) means the algorithm takes constant time regardless of input size.
+
+Big O is essential for choosing the most efficient algorithm for large-scale problems and ensuring better scalability and performance.
+
+Time Complexities for Search Operations
+
+Search operations can vary in performance based on the position of the target element and the type of algorithm used. These are evaluated in three scenarios:
+
+Best Case:
+The scenario where the search finds the target in the minimum possible time.
+
+Example: In linear search, the element is at the first position - O(1).
+
+Average Case:
+The scenario that reflects the typical or expected situation when performing the search.
+
+Example: In linear search, the element may be anywhere in the middle - O(n/2), which simplifies to O(n).
+
+Worst Case:
+The scenario where the algorithm takes the maximum time to complete, usually when the element is at the end or not found.
+
+Example: In linear search, we search the entire array and do not find the element - O(n).
+
+Binary Search (for sorted arrays):
+
+Best Case: Target is exactly in the middle - O(1)
+
+Average and Worst Case: Repeated halving - O(log n)
+
+These cases help in understanding how a search algorithm performs in different conditions and allow us to make informed decisions when selecting an algorithm.
